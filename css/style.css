@@ -43,7 +43,7 @@ h4 {
 }
 
 a {
-  color: #292929;
+  color: whitesmoke;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -160,6 +160,9 @@ p {
   padding-bottom: 90px !important;
 }
 
+
+
+
 .hvr-shutter-in-horizontal::before {
   background: #333;
 }
@@ -253,6 +256,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-left: 550px;
 }
 
 .header-content h1 {
@@ -446,6 +450,8 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
+  height: 250px;
+  width: 500px;
 }
 
 /*-----------------------------------------------------------------------------------*/
