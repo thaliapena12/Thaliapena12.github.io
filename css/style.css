@@ -522,10 +522,16 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
-
+.contact-contact{
+  position: relative;
+    background: #f7f7f7;
+    text-align: center;
+    width: 100%;
+}
 #contact {
   height: auto;
   width: 100%;
+
 }
 
 .contact-details {
@@ -580,9 +586,9 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* background: #f7f7f7; */
+  padding-top: 10px;
+  padding-bottom: -20px;
 }
 
 #footer .socials-media {
